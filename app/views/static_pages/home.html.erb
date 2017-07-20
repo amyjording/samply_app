@@ -1,7 +1,14 @@
+<div class="center jumbotron">
+<h1>Welcome to Amy's Sweet Samply App</h1>
 
-<h1>Amy's Groovy App</h1>
+<h2>
+	This is the home page for various shenanigans thanks to the gal behind
+	<a href="http://www.deserthorsedesigns.com">Desert Horse Designs</a>
+</h2>
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
 <p>
-	This static page is my playground to develop further.
+	Here's my excitement about gardening.
 	Check out <a href="http://www.vivajard.in/">My fun garden project</a>.
 </p>
-
+<%= link_to image_tag("dhd-logo.png", alt: "DHD logo"),
+            'http://www.deserthorsedesigns.com/' %>
