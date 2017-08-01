@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails',          '5.0.3'
+gem 'bcrypt',         '3.1.11'
+# use this guide with bcrypt testing issues: https://www.alib.jp/entries/bcrypt_ext_load_error_on_ruby21x
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',           '3.9.1'
 gem 'sass-rails',     '5.0.6'
