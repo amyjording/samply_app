@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails',          '5.0.3'
-gem 'bcrypt',         '3.1.11'
+gem 'rails',                   '5.0.3'
+gem 'bcrypt',                  '3.1.11'
+gem 'faker',                   '1.7.3'
+gem 'will_paginate',           '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
 # use this guide with bcrypt testing issues: https://www.alib.jp/entries/bcrypt_ext_load_error_on_ruby21x
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',           '3.9.1'
